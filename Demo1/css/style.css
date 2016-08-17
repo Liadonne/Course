@@ -1,0 +1,420 @@
+/*Reset Css*/
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+* {
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+h1{
+    
+    font-size: 3em;
+}
+h2{    
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+/*main*/
+
+
+body{
+    font:400 100%/1 "Open Sans",sans-serif;
+    font-size: 16px;
+    color: #242424;
+}
+body > header{
+    width: 100%;
+    display: block;
+    background: #e05038;
+    padding: 20px 20px 20px 40px;
+}
+h1 sub{
+    font-size: 22px;
+}
+
+.title{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;    
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 150px;
+    display: block;
+}
+.title .icon-fort-awesome{
+    position: absolute;
+    left: 0;
+    top: -20px;
+    font-size: 2em;
+}
+.page-content{
+    padding:20px 40px 0;
+}
+.page-content > h2{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin:20px 40px 40px 40px;
+    border-bottom: 2px solid #242424; 
+}
+
+.devices-list{
+    background: url(../img/smart-home.png) no-repeat center 150px;
+    text-align: center;
+    margin: 0 auto;
+    background-size: 60%;
+    max-width: 1200px;
+    
+}
+
+.devices-list [class^="item"]{  
+    font-size: 5em;
+    display: inline-block;
+    width: 49%;
+    padding:10px 0;
+    text-align: left;
+    position: relative;
+}
+.devices-list .item-full-width{
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+.devices-list .item:nth-child(odd){
+    text-align: right;
+}
+
+[class^="item"] > a{  
+       display: inline-block;
+       position: relative;
+       height: 130px;
+       width: 130px;
+}
+[class^="item"] span{
+    font-size: inherit;
+    background: #f2b632;
+    padding: 25px;
+    border-radius: 70px;
+     color: #334431;
+    -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+     position: absolute;    
+     min-width: 130px;
+     text-align: center; 
+       left: 0;
+       top: 0;
+}
+[class^="item"] > a:hover span{
+     font-size:1.125em;
+     top:-10px;
+     left: -10px;
+     color: #FBFFFF;
+
+}
+
+.position-1, .position-2{    
+    top:-80px;
+}
+.position-3, .position-4{    
+    top:-60px;
+}
+.position-5, .position-6{    
+    top: -20px;
+}
+.position-7, .position-8{    
+    padding-top:60px;
+}
+.item.position-1{
+    left:130px;
+}
+.item.position-2{
+    right: 130px;
+}
+
+.item.position-5{
+    padding-left: 20px;
+}
+.item.position-6{
+    padding-right: 20px;
+}
+
+.item.position-7{
+    padding-left: 130px;
+}
+.item.position-8{
+    padding-right: 130px;
+}
+
+
+.layout-50-50 .col1,
+.layout-50-50 .col2{
+    width: 50%;
+    float: left;
+}
+.cf:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*optionals*/
+.panel{
+    background: #CEDFCC;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-top: 10px;
+    padding:5%;
+}
+.panel-option{
+    overflow: hidden;    
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.panel .panel-value{
+    float: right;
+}
+.panel-option > h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+.panel input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+.button{
+ font-size: 1.5em;
+  margin: 12px 0;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 9px 24px 10px;
+  background-color: darkred;
+  border:1px solid darkred;    
+  color: #fff;
+  border-radius: 4px;
+  -webkit-transition: all 120ms ease-out;
+  -moz-transition: all 80ms ease-out;
+  transition: all 120ms ease-out;
+  background-image: -webkit-linear-gradient(top,  hsla(0,0%,100%,0.12) 0%,hsla(0,0%,100%,0) 100%); /* Chrome10+,Safari5.1+ */
+
+}
+.button:hover {
+    box-shadow: 0 1px 4px hsla(0,0%,0%,.05);
+    background-image: -webkit-linear-gradient(top,  hsla(0,0%,100%,.2) 0%,hsla(0,0%,100%,.1) 100%); 
+    color: #fff;
+}
+.button:disabled,
+input:disabled,
+input:checked:disabled + .slider,
+input[type="radio"]:disabled + .time{
+    opacity: 0.5;
+}
+.actions-wrapper{
+    margin: 40px 0 20px;
+}
+
+
+.panel .time {
+    margin: 20px 0;
+    font-size: 3em;
+    position: absolute;
+    display: none;
+}
+
+.panel-option.control{
+    opacity: 1;
+}
+
+input[type="radio"]:checked + .time{
+    display: block;
+}
+
+/*switch*/
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.control .slider{
+    background-color: red;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #87C540;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #87C540;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(46px);
+  -ms-transform: translateX(46px);
+  transform: translateX(46px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#washingMachine{
+    max-height: 700px;
+}
+
+
+
+/*test*/
+.powder-box{
+    fill: yellow;
+}
+
+.program-sport, .program-cotton, .program-jeans{
+    fill: red;
+}
+.control{
+    fill: green;
+}
