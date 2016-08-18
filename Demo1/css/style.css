@@ -402,12 +402,10 @@ input:checked + .slider:before {
 }
 
 #washingMachine{
-    max-height: 700px;
+    max-height: 62vh;
 }
 
-
-
-/*test*/
+/*svg test*/
 .powder-box{
     fill: yellow;
 }
